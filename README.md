@@ -31,6 +31,16 @@ cmake -D CMAKE_BUILD_TYPE=Release -D BLAS=Open -D BUILD_SHARED_LIBS=Off ..
 make 
 make install (optionally)
 ```
+fatal error druing `make`: make: *** No targets specified and no makefile found.  Stop.
+the official caffe install instructions are here 
+```
+mkdir build
+cd build
+cmake ..
+make all
+make install
+make runtest
+```
 
 3. build project
 ```
