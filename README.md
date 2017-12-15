@@ -32,6 +32,7 @@ make
 make install (optionally)
 ```
 fatal error druing `make`: make: *** No targets specified and no makefile found.  Stop.
+
 the official caffe install instructions are here 
 ```
 mkdir build
